@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.3/css/bulma.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../static/css/custom.css">
+    </head>
+    <body>
+        <div class='box navbar'>
+            <h3 class='title'>Beholder</h3>
+            <ul class='navbar-opts'>
+                <li><a href="/">Home</a></li>
+                <li><a class="active" href="/upload">Upload</a></li>
+                <li><a href="/explore">Explore</a></li>
+                <li><a href="/analytics">Analytics</a></li>
+            </ul>
+        </div>
+        <div class='highlight box'></div>
+        <div class='columns'>
+        <nav class="panel" style="margin-left:2.0rem">
+          <p class="panel-heading">
+            Repositories
+          </p>
+          <div class="panel-block">
+            <p class="control has-icons-left">
+              <input class="input is-small" type="text" placeholder="Search">
+              <span class="icon is-small is-left">
+                <i class="fa fa-search"></i>
+              </span>
+            </p>
+          </div>
+          <p class="panel-tabs">
+            <a class="is-active">All</a>
+            <a>Public</a>
+            <a>Private</a>
+            <a>Videos</a>
+            <a>Photos</a>
+          </p>
+          <a class="panel-block is-active">
+            <span class="panel-icon">
+              <i class="fa fa-file-video-o"></i>
+            </span>
+            Home Video
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fa fa-file-video-o"></i>
+            </span>
+            Meeting July 7th
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fa fa-file-video-o"></i>
+            </span>
+            Meeting July 13th
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fa fa-file-video-o"></i>
+            </span>
+            Fireworks
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fa fa-file-image-o"></i>
+          </span>
+           FB cover photo
+          </a>
+          <label class="panel-block">
+            <input type="checkbox">
+            Remember me
+          </label>
+          <div class="panel-block">
+            <button class="button is-primary is-outlined is-fullwidth">
+              Reset all filters
+            </button>
+          </div>
+        </nav>
+          <div class="column box content-left is-half">
+            <h1 class="subtitle content-title">Upload</h1>
+            <hr>
+             <h5 class="content-text">
+                   You have the original file. We added your file into our database.
+		  <div class="panel-block">
+		    <button class="button is-primary is-outlined is-fullwidth" onclick="document.location.href='/upload'">
+		      Upload Another File
+		    </button>
+		  </div>
+              </h5>
+        </div>
+    </body>
+</html>

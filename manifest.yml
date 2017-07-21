@@ -1,0 +1,5 @@
+applications:
+- name: teamaaaw
+  memory: 128M
+  command: python hello.py
+

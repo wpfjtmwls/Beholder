@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.3/css/bulma.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../static/css/custom.css">
+    </head>
+    <body>
+        <div class='box navbar'>
+            <h3 class='title'>Beholder</h3>
+            <ul class='navbar-opts'>
+                <li><a href="/">Home</a></li>
+                <li><a href="/upload">Upload</a></li>
+                <li><a class="active" href="/explore">Explore</a></li>
+                <li><a href="/analytics">Analytics</a></li>
+            </ul>
+        </div>
+        <div class='highlight box'></div>
+        <div class='columns'>
+          <div class='content-left column box is-3'>
+          <nav class="panel" style="margin-left:2.0rem">
+          <p class="panel-heading">
+            Explore
+          </p>
+          <div class="panel-block">
+            <p class="control has-icons-left">
+              <input class="input is-small" type="text" placeholder="Search">
+              <span class="icon is-small is-left">
+                  <i class="fa fa-search"></i>
+              </span>
+            </p>
+          </div>
+          <!--<p class="panel-tabs">
+            <a class="is-active">All</a>
+            <a>Public</a>
+            <a>Private</a>
+            <a>Videos</a>
+            <a>Photos</a>
+          </p>-->
+          <a class="panel-block is-active">
+            <span class="panel-icon">
+              <i class="fa fa-file-video-o"></i>
+            </span>
+            Videos
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fa fa-file-video-o"></i>
+            </span>
+            Photos
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fa fa-file-video-o"></i>
+            </span>
+            Blogs
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fa fa-file-video-o"></i>
+            </span>
+            Articles
+          </a>
+          <div class="panel-block">
+            <button class="button is-primary is-outlined is-fullwidth">
+              Reset all filters
+            </button>
+          </div>
+          </nav>
+          </div>
+          <div class='column box content-right'>
+          <table class="table">
+	  <thead>
+	    <tr>
+	      <th><abbr title="Name">Name</abbr></th>
+	      <th><abbr title="URL">URL</abbr></th>
+	      <th><abbr title="Views">V</abbr></th>
+	      <th><abbr title="Similarity">S%</abbr></th>
+	      <th><abbr title="Tags">T</abbr></th>
+              <th><abbr title="Match">M</abbr></th>
+	    </tr>
+	  </thead>
+	  <tfoot>
+	    <tr>
+	      <th><abbr title="Name">Name</abbr></th>
+	      <th><abbr title="URL">URL</abbr></th>
+	      <th><abbr title="Views">V</abbr></th>
+	      <th><abbr title="Similarity">S%</abbr></th>
+	      <th><abbr title="Tags">T</abbr></th>
+              <th><abbr title="Match">M</abbr></th>
+	    </tr>
+	  </tfoot>
+	  <tbody>
+	    <tr>
+	      <th>Sarah Anderson</th>
+	      <td><a href="https://sarahcanderson.com" title="Website">sarahcanderson.com</a></td>
+	      <td>100k</td>
+	      <td>52%</td>
+	      <td>Comics - Black&White - Animals - Minimalist - Art - Drawing</td>
+	      <td>No</td>
+	    </tr>
+	    <tr>
+	      <th>TheOdd1sOut</th>
+	      <td><a href="https://youtube.com/TheOdd1sOut" title="Youtube Channel">youtube.com</a></td>
+	      <td>17k</td>
+	      <td>36%</td>
+	      <td>Comics - Sketchy - Videos - Art - Drawing</td>
+	      <td>No</td>
+	    </tr>
+	    <tr>
+	      <th>Vi Hart</th>
+	      <td><a href="https://youtube.com/ViHart" title="Youtube Channel">youtube.com</a></td>
+	      <td>62k</td>
+	      <td>29%</td>
+	      <td>Videos - Math - Music - Art - Drawing - Nature</td>
+	      <td>No</td>
+	    </tr>
+	  </tbody>
+          </table>
+          </div>
+        </div>
+    </body>
+</html>

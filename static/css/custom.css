@@ -1,0 +1,93 @@
+:root {
+  --dark: #252D25;
+  --grey: #646B64;
+  --light: #EFFFEF;
+  --neon: #9AE19D;
+  --green: #537A5A;
+  --text: #94A894;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+div.container {
+  background-color: var(--neon);
+}
+
+div.navbar {
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+h3.title {
+  color: var(--green);
+}
+
+ul.navbar-opts {
+  color: var(--text);
+  width: 100%;
+  display: inline;
+  list-style-type: none;
+  margin-left: 4.0rem;
+  padding: 0.5rem;
+}
+
+ul.navbar-opts li {
+  display: inline;
+  margin-left: 4.0rem;
+  width: 4.0rem;
+  float: left;
+  padding-bottom: 1.5rem;
+}
+
+ul.navbar-opts li a {
+  color: var(--text);
+}
+
+ul.navbar-opts li a:hover {
+  color: var(--dark);
+}
+
+ul.navbar-opts li a.active {
+  color: var(--green);
+}
+
+ul.content-overview li {
+  padding: 1.0rem;
+  padding-left: 1.5rem;
+  color: var(--text);
+}
+
+ul.content-overview li:hover {
+  color: var(--dark);
+  background-color: var(--light);
+}
+
+.content-title {
+  color: var(--green);
+  margin-left: 4.0rem;
+}
+
+h5.content-text {
+  line-height: 2.0rem;
+  padding: 2.0rem;
+  padding-left: 2.5rem;
+}
+
+div.content-left {
+  margin: 5.0rem;
+  margin-right: 3rem;
+}
+
+div.content-right {
+  margin: 5.0rem;
+  margin-left: 0rem;
+}
+
+div.highlight {
+  padding: 5.0rem;
+  height: 20%;
+  background-color: var(--neon);
+  color: var(--light);
+}
